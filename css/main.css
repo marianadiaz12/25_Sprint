@@ -1,0 +1,53 @@
+/* Inserta tu codigo aqui */
+.log{
+	height: 100%;
+	width: 100%;
+}
+header{
+	background-color: black;
+}
+article{
+	background-color: #212F3D;
+}
+
+.col-whi{
+	color: white;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: right;
+}
+nav ul li{
+	display: inline-block;
+	margin-top: 5%;
+	margin-left: 2%; 
+}
+.spring{
+	color: #F39C12;
+}
+.back{
+	background-image: url("../image/header-image.jpg");
+	background-position: center;
+	margin: 10% 30%;
+}
+.blnk{
+	background-color: black;
+	width: 100%;
+	height: 100;
+}
+
+.cudri{
+	height: 100%;
+	width:100%;
+}
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
