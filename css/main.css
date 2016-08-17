@@ -3,7 +3,7 @@
 	height: 100%;
 	width: 100%;
 }
-header{
+.black{
 	background-color: black;
 }
 article{
@@ -33,14 +33,15 @@ nav ul li{
 }
 .blnk{
 	background-color: black;
-	width: 100%;
 }
 
 .cudri{
-	height: 90%;
-	width:90%;
+	height: 100%;
+	width:100%;
 }
-
+.video{
+	width: 100%;
+}
 .mg-b5{
 		margin-bottom: 5%;
 }
