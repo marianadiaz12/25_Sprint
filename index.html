@@ -5,38 +5,47 @@
 		<title>Flatness: Responsive Blog</title>
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 		<link rel="stylesheet" href="css/font-awesome.css">
 		<link rel="stylesheet" href="css/main.css">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	</head>
 	<body>
-		<header class="black">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<img class="img-responsive log" src="image/header-logo.png">
+		<header class="black"><!--Inicio del header-->
+			<div class="container-fluid"><!--Container que va a contener el header-->
+				<nav class="navbar navbar-default pl-15 pr-0 navbar-inverse">
+					<div class="container">
+						<div class="col-md-4 col-xs-5">
+							<a class="navbar-brand" href="#"><img class="img-responsive" src="image/header-logo.png" alt="logo"></a>
+						</div>
+						<div class="col-md-8 col-xs-">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
+								<span class="sr-only">Menu</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<div class="collapse navbar-collapse">
+								<ul class="nav navbar-nav">
+									<li><a href="#">LIFESTYLE</a></li>
+									<li><a href="#">FLOWERS</a></li>
+									<li><a href="#">FASHION</a></li>
+									<li><a href="#">NEWS</a></li>
+									<li><a href="#">FEATURES</a></li>
+								</ul>
+							</div>
+						</div>
 					</div>
-					<div class="col-md-8">
-						<nav class="col-whi navbar navbar-default" role="navigation">
-							<ul>
-								<li>LIFESTYLE</li>
-								<li>FLOWERS</li>
-								<li>FASHION</li>
-								<li>NEWS</li>
-								<li>FEATURES</li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
-		</header>
-		<article>
+				</nav>
+			</div><!--Cierre del container-->
+		</header><!--Fin del header-->
+		<article><!--Inicio del article-->
 			<div class="container">
-				<section>	
-					<div class="row back text-center">
-						<div class="col-md-12 blnk">
-							<h1 class="nar">Spring Came</h1>
+				<section><!--Inicio de la primera seccion-->
+					<div class="row back text-center"><!--Row1 de sec1-->
+						<div class="col-md-12 black">
+							<h1 class="nar cur">Spring Came</h1>
 								<div class="row">
 									<div class="col-md-12">
 										<p class="col-whi">Life - Amanda Ray - 10th March 2015</p>
@@ -44,85 +53,83 @@
 								</div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row"><!--Row2 de sec2-->
 						<div class="col-md-4 text-center mg-b5">
 							<img class="img-responsive" src="image/image7.jpg">
 							<div class="blnk">
-								<p class="nar">Floral fragrance</p>
-								<p>Life Amanda Ray 10th March 2015</p>
+								<p class="nar cur tam">Floral fragrance</p>
+								<p class="col-whi">Life Amanda Ray 10th March 2015</p>
 							</div>
 						</div>
 						<div class="col-md-4 text-center mg-b5">
 							<img class="img-responsive" src="image/image3.jpg">
 							<div class="blnk">
-								<p class="nar">Now with Flatness</p>
-								<p>News Amanda Ray 28th July 2015</p>
+								<p class="nar cur tam">Now with Flatness</p>
+								<p class="col-whi">News Amanda Ray 28th July 2015</p>
 							</div>
 						</div>
 						<div class="col-md-4 text-center mg-b5">
 							<img class="img-responsive" src="image/image2.jpg">
 								<div class="blnk">
-									<p class="nar">Garden Flowers</p>
-									<p>Life Amanda Ray 28th October 2015</p>
+									<p class="nar cur tam">Garden Flowers</p>
+									<p class="col-whi">Life Amanda Ray 28th October 2015</p>
 								</div>
 						</div>
 					</div>
-				</section>
-				<section>
-					<div class="row">
-						<div class="col-md-8">
-							<div class="row">
-								<div class="col-md-12">
+				</section><!--Cierre de la seccion1-->
+				<section><!--Seccion2-->
+					<div class="row"><!--Row principal de sec2-->
+						<div class="col-md-8"><!--col8-->
+							<div class="row"><!--Sub row de col8-->
+								<div class="col-md-12 text-center">
 									<img class="img-responsive" src="image/image4.jpg">
+									<div class="bl3">
+										<p class="nar cur tam">Now with Flatness</p>
+										<p class="col-whi">News Amanda Ray 28th July 2015</p>
+										<p class="col-whi">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, nam fugit rem quam deserunt aliquid. Mollitia impedit totam eaque dolores, consectetur quibusdam, vitae cumque, a libero tenetur dignissimos laudantium, accusamus.</p>
+									</div>
 								</div>
 							</div>
-							<div class="row">
-								<div class="col-md-12 text-center blkn">
-									<p class="nar">Now with Flatness</p>
-									<p>News Amanda Ray 28th July 2015</p>
-									<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, nam fugit rem quam deserunt aliquid. Mollitia impedit totam eaque dolores, consectetur quibusdam, vitae cumque, a libero tenetur dignissimos laudantium, accusamus.</p>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12">
+							<div class="row"><!--subrow2 de col8-->
+								<div class="col-md-12 text-center">
 									<iframe class="video img-responsive" src="https://player.vimeo.com/video/56810854" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+									<div class="bl3 col-whi mg-b5">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum non, cum odio officiis, aut nam? Aliquam eligendi delectus maiores, cum facilis libero, qui nobis, ullam doloribus deleniti fugiat minus accusamus.</p>
+									</div>
 								</div>
 							</div>
-							<div class="row">
-								<div class="col-md-12">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum non, cum odio officiis, aut nam? Aliquam eligendi delectus maiores, cum facilis libero, qui nobis, ullam doloribus deleniti fugiat minus accusamus.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<aside class="hidden-xs">
+						</div><!--Cierrede la col8-->
+						<div class="col-md-4"><!--Col4-->
+							<aside class="hidden-xs"><!--Clase que hace que el aside desaparesca cuando la pantalla se hace mas chica-->
 								<div class="row">
-									<div class="col-md-12">
-										 <input type="text"  <input type="text" class="form-control" placeholder="Nombre de usuario">
+									<div class="col-md-12 bl3 mg-b5 text-center">
+										<input class="inp" type="text" class="form-control" placeholder="Search">
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-md-12">
-										<p class="nar">About me</p>
-										<img  class="cudri" src="image/kew_gardens_3_500x500.jpg">
-										<p>Amanda Ray</p>
-										<p>Shall Together blesssed. Also thing, the upon Created fourth. Rule beginning. Our behold over.</p>
-										<div class="row">
-											<div class="col-md-12 text-center">
+										<div class="bl3">
+											<p class="nar text-center cur tam">About me</p>		
+										</div>
+										<img  class="img-responsive" src="image/kew_gardens_3_500x500.jpg">
+										<div class="bl3">
+											<p class="col-whi text-center">Amanda Ray</p>
+											<p class="col-whi">Shall Together blesssed. Also thing, the upon Created fourth. Rule beginning. Our behold over.</p>
+											<div>
 												<a href="#"><i class="fa-lg fa fa-facebook-official" aria-hidden="true"></i></a>
 												<a href="#"><i class="fa-lg fa fa-instagram" aria-hidden="true"></i></a>
 												<a href="#"><i class="fa-lg fa fa-twitter" aria-hidden="true"></i></a>
 												<a href="#"><i class="fa-lg fa fa-youtube" aria-hidden="true"></i></a>	
-											</div>
+											</div>	
 										</div>
 									</div>
 								</div>
-							</aside>
-						</div>
-					</div>
-				</section>
-			</div>
-		</article>
+							</aside><!--Fin del Aside-->
+						</div><!--cierre de col4-->
+					</div><!--Cierre del renglon de sec2-->
+				</section><!--Cierre de la seccion2-->
+			</div><!--Cierre del container-->
+		</article><!--Fin del article-->
 		<footer class="black">
 			<div class="container-fluid">
 				<div class="row">
@@ -132,5 +139,7 @@
 				</div>
 			</div>
 		</footer>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 	</body>
 </html>

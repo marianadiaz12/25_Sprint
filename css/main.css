@@ -1,10 +1,7 @@
 /* Inserta tu codigo aqui */
-.log{
-	height: 100%;
-	width: 100%;
-}
 .black{
 	background-color: black;
+	padding: 1%;
 }
 article{
 	background-color: #1F1F20;
@@ -14,35 +11,52 @@ article{
 	color: white;
 }
 
-nav ul{
-	list-style-type: none;
-	text-align: right;
-}
-nav ul li{
-	display: inline-block;
-	margin-top: 5%;
-	margin-left: 2%; 
-}
+
+
 .nar{
 	color: #F39C12;
 }
 .back{
 	background-image: url("../image/header-image.jpg");
+	background-size: 98%;
 	background-position: center;
-	margin: 10% 30%;
+	background-repeat: no-repeat;
+	padding: 20%;
+	margin: 5% 30%;
 }
 .blnk{
-	background-color: black;
+	background-color: #181818;
+	padding: 5%;
 }
 
+.bl3{
+	background-color:#151516; 
+	padding: 2%;
+}
+.inp{
+	margin: 2%;
+	background-color: #1F1F20;
+	border: none;
+	padding: 2%;
+	border-radius: 2%;
 
+}
 .video{
 	width: 100%;
-
 }
 .mg-b5{
 		margin-bottom: 5%;
 }
+.cur{
+ 	font-family: 'Lobster', cursive;
+ }
+ .tam{
+ 	font-size: 150%;
+ }
+ a i{
+ 	margin-left: 3%;
+ 	margin-bottom: 2%;
+ }
 
 /* Responsive */
 
@@ -53,4 +67,3 @@ nav ul li{
 @media screen and (max-width: 600px) {
 
 }
-ma
