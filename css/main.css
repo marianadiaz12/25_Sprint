@@ -43,7 +43,8 @@ nav{
 	background-color: #1F1F20;
 	border: none;
 	padding: 2%;
-	border-radius: 2%;
+	border-radius: 15px;
+	width: 70%;
 
 }
 .video{
