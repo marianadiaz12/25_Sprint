@@ -7,11 +7,16 @@ article{
 	background-color: #1F1F20;
 }
 
+ul{
+	padding-top:5%; 
+}
+nav{
+	margin-left: 0%;
+}
+
 .col-whi{
 	color: white;
 }
-
-
 
 .nar{
 	color: #F39C12;
@@ -43,6 +48,7 @@ article{
 }
 .video{
 	width: 100%;
+	height: 100%;
 }
 .mg-b5{
 		margin-bottom: 5%;
@@ -53,9 +59,12 @@ article{
  .tam{
  	font-size: 150%;
  }
- a i{
+ .ico{
  	margin-left: 3%;
  	margin-bottom: 2%;
+ 	border-radius: 50%;
+ 	background-color: black;
+ 	padding: 2%;
  }
 
 /* Responsive */
