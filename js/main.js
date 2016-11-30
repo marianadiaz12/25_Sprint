@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$(".col-whi").hover(function() {
+	$('.col-whi').hover(function() {
 	$(this).addClass("nar");
 	},
 	function() {
@@ -9,7 +9,11 @@ $(document).ready(function(){
 	$('input').focus(function(){
         $(this).css('outline-color', '#FF0000');
      });
-	$('.flatnes').click(function(){
-        $(this).effect('slide');
-        }); /*Aun no funciona*/
+
+	$('h1').mouseenter(function(){
+		$(this).animate({fontSize: '7em'}, 'slow');
+	});
+	$('h1').mouseleave(function(){
+		$(this).animate({fontSize: '4em'}, 'slow');
+	});
 });
