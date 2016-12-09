@@ -13,6 +13,10 @@ ul{
 nav{
 	margin-left: 0%;
 }
+.navbar-inverse{
+	background-color: black !important;
+	border-color: none !important;
+}
 
 .col-whi{
 	color: white;
@@ -67,6 +71,11 @@ nav{
  	background-color: black;
  	padding: 2%;
  }
+
+iframe{
+  width: 100%;
+  height: 315px; 
+}
 
 /* Responsive */
 
